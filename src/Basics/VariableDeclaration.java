@@ -8,7 +8,7 @@ public class VariableDeclaration {
         int Z = X+Y;
         String FirstName = "Radhika";
         String LastName = "Vijay";
-        System.out.println(X+Y);
+        System.out.println(Z);
         System.out.println("FullName:  "+ FirstName+LastName);
     }
 }
