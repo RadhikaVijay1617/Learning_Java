@@ -8,6 +8,7 @@ public class IfElseStatement {
         //IfElseEX2();
         //IfElseEX3();
         CompareTwoNumbers();
+        UseElseIf();
     }
     //If Else Statement
     public static void IfElseEX1()
@@ -51,15 +52,31 @@ public class IfElseStatement {
             System.out.println("both numbers are not equal");
         }
     }
-    public static void CompareTwoNumbers(){
+    public static void CompareTwoNumbers() {
         Scanner Scan = new Scanner(System.in);
         int mark = Scan.nextInt();
-        if (mark>=35){
+        if (mark >= 35) {
             System.out.println("pass");
-        }
-        else{
+        } else {
             System.out.println("fail");
         }
+    }
+public static void UseElseIf(){
+        int num = 8;
+
+        if (num>0)
+        {
+            System.out.println("Given number is a positive");
+        }
+        else if(num<0)
+        {
+            System.out.println("Given number is a negative");
+        }
+        else
+        {
+            System.out.println("Given number is a Zero");
+        }
+
 
     }
 }
