@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class NestedIfElse {
     public static void main(String[] args) {
         //NestedIfElse1();
-        DisplayWeek();
+        //DisplayWeekNumber();
+
     }
 
     public static void NestedIfElse1() {
@@ -19,28 +20,31 @@ public class NestedIfElse {
             System.out.println("123");
         }
     }
-    public static void DisplayWeek(){
-        Scanner Scan=new Scanner(System.in);
+
+    //Enter week number, the day will be displaying
+    public static void DisplayWeekNumber() {
+        Scanner Scan = new Scanner(System.in);
         int day = Scan.nextInt();
 
-        if (day ==1){
+        if (day == 1) {
             System.out.println("Monday");
-        }
-        else if(day==2){
+        } else if (day == 2) {
             System.out.println("Tuesday");
-        } else if (day==3) {
+        } else if (day == 3) {
             System.out.println("Wednesday");
-        } else if (day==4) {
+        } else if (day == 4) {
             System.out.println("Thursday");
-        } else if (day==5) {
+        } else if (day == 5) {
             System.out.println("Friday");
-        } else if (day==6) {
+        } else if (day == 6) {
             System.out.println("Saturday");
-        } else if (day==7) {
+        } else if (day == 7) {
             System.out.println("Sunday");
-        }
-        else{
+        } else {
             System.out.println("Invalid Week Number");
         }
     }
+
+
 }
+

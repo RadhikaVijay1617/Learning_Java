@@ -1,4 +1,4 @@
-package Exercises;
+package Z_Exercises;
 
 public class Swap_Two_Numbers {
     public static void main(String[]args){

@@ -1,4 +1,4 @@
-package Exercises;
+package Z_Exercises;
 
 public class CheckNumberPositiveNegativeZero {
     public static void main(String[]args){
