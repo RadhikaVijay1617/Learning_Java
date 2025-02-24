@@ -10,7 +10,7 @@ public class FindSumOfDigitsInAnumber {
             sum =sum+num%10;
             num=num/10;
         }
-        System.out.println("Sum of digits in given number:" +sum );
+        System.out.println("Sum of digits in given number:" +sum);
     }
 
 
