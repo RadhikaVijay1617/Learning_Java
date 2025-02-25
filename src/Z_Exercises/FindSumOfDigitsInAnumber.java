@@ -1,5 +1,5 @@
 package Z_Exercises;
-
+//Find sum of the given digits (EX: 123 = 6)
 public class FindSumOfDigitsInAnumber {
     public static void main(String[]args){
 
