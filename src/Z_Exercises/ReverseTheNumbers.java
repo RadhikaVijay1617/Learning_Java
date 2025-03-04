@@ -8,6 +8,7 @@ public class ReverseTheNumbers {
 //ReverseNumEx1();
 //ReverseNumEx2();
 ReverseNumEx3();
+ArrayInReverseOrder();
 
     }
     //Reverse the number using with While loop
@@ -42,6 +43,15 @@ ReverseNumEx3();
        StringBuilder StrBui = new StringBuilder();
        StringBuilder rev = StrBui.append(number);
         System.out.println(rev);
+    }
+
+    //Array in reverse
+    public static void ArrayInReverseOrder() {
+        int a[] = {2, 4, 5, 3, 7, 5, 6, 1};
+
+        for (int i = a.length - 1; i >= 0; i--) {
+            System.out.println(a[i]);
+        }
     }
 
 }
