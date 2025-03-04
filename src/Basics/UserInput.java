@@ -7,14 +7,21 @@ public class UserInput {
     public static void main(String[]args){
         Scanner Scan = new Scanner(System.in);
 
-        String FirstName = Scan.nextLine();
+        System.out.println("Enter First Name:");
+        String FirstName = Scan.nextLine();  //we can user Scan.nextLine() or Scan.next()
         System.out.println("FirstName:" + FirstName);
 
-        String LastName = Scan.nextLine();
+        System.out.println("Enter Last Name:");
+        String LastName = Scan.next();
         System.out.println("LastName:" + LastName);
 
+        System.out.println("Enter Age:");
         int age= Scan.nextInt();
         System.out.println("Age:" + age);
+
+        System.out.println("Enter Double Number:");
+        double num = Scan.nextDouble();
+        System.out.println("Double Number:" + num);
     }
 }
 
