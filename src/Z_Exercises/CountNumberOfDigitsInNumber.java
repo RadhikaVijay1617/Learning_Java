@@ -7,12 +7,12 @@ public class CountNumberOfDigitsInNumber {
     //Find how many digits in a given number(34567 - 5digits)
     public static void HowManyDigits(){
         int num=564324;
-        int count = 0;
+        int coun = 0;
         while (num>0){
             num = num/10;
-            count++;
+            coun++;
         }
-        System.out.println("Number of Digits:" + count);
+        System.out.println("Number of Digits:" + coun);
 
     }
 }
